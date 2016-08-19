@@ -1,46 +1,49 @@
 {
-  "name": "react-native-baidu-voice-synthesizer",
-  "version": "1.0.0",
-  "description": "baidu voice speech synthesizer for react native",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./scripts/install-sdk.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/react-melon/react-native-baidu-voice-synthesizer.git"
-  },
-  "keywords": [
-    "baidu",
-    "synthesizer",
-    "text-to-speech",
-    "tts",
-    "react-native"
-  ],
-  "author": "leon <ludafa@outlook.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/react-melon/react-native-baidu-voice-synthesizer/issues"
-  },
-  "homepage": "https://github.com/react-melon/react-native-baidu-voice-synthesizer#readme",
-  "rnpm": {
-    "ios": {
-      "sharedLibraries": [
-        "AudioToolbox.framework",
-        "UIKit.framework",
-        "libstdc++.6.0.9.tbd",
-        "libiconv.2.4.0.tbd",
-        "libc++.tbd",
-        "libz.1.2.5.tbd"
-      ]
+    "name": "react-native-baidu-voice-synthesizer",
+    "version": "1.0.0",
+    "description": "baidu voice speech synthesizer for react native",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node ./scripts/install-sdk.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/react-melon/react-native-baidu-voice-synthesizer.git"
+    },
+    "keywords": [
+        "baidu",
+        "synthesizer",
+        "text-to-speech",
+        "tts",
+        "react-native"
+    ],
+    "author": "leon <ludafa@outlook.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/react-melon/react-native-baidu-voice-synthesizer/issues"
+    },
+    "homepage": "https://github.com/react-melon/react-native-baidu-voice-synthesizer#readme",
+    "rnpm": {
+        "ios": {
+            "sharedLibraries": [
+                "AudioToolbox.framework",
+                "UIKit.framework",
+                "libstdc++.6.0.9.tbd",
+                "libiconv.2.4.0.tbd",
+                "libc++.tbd",
+                "libz.1.2.5.tbd"
+            ],
+            "assets": [
+                "ios/OfflineTTSDatFiles"
+            ]
+        }
+    },
+    "sdk": "2.2.2",
+    "devDependencies": {
+        "gulp": "^3.9.1"
+    },
+    "dependencies": {
+        "download": "^5.0.2"
     }
-  },
-  "sdk": "2.2.2",
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
-    "download": "^5.0.2"
-  }
 }

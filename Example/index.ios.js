@@ -12,13 +12,30 @@ import {
   View
 } from 'react-native';
 
-import {ping} from 'react-native-baidu-voice-synthesizer';
+import {configure, speekSentence} from 'react-native-baidu-voice-synthesizer';
 
 class Example extends Component {
 
 
-    componentDidMount() {
-        ping('world');
+    async componentDidMount() {
+
+        try {
+
+            await configure({
+                appID: '8167864',
+                apiKey: 'g8ylHecLtt4WyTuPFG7Fssu0',
+                secretKey: '391b8964cb174efc85eac80b5fcf6be5'
+            });
+
+            await speekSentence('老狼老狼几点啦');
+
+            await speekSentence('6点啦6点啦6点啦6点啦6点啦6点啦6点啦');
+
+        }
+        catch (e) {
+            console.log(e);
+        }
+
     }
 
   render() {

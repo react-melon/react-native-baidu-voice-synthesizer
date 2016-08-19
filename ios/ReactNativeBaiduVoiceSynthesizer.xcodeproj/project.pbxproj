@@ -37,13 +37,6 @@
 		35A954431D655B6D00B635B4 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSpeechSynthesizerDelegate.h; path = BDSSpeechSynthesizer_SDK/BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
 		35A954441D655B6D00B635B4 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSBuiltInPlayer.h; path = BDSSpeechSynthesizer_SDK/BDSBuiltInPlayer.h; sourceTree = "<group>"; };
 		35A954461D655C8100B635B4 /* libetts_device_simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libetts_device_simulator.a; path = BDSSpeechSynthesizer_SDK/libetts_device_simulator.a; sourceTree = "<group>"; };
-		35A9544A1D655D5C00B635B4 /* offline_engine_tmp_license.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = offline_engine_tmp_license.dat; path = OfflineTTSDatFiles/offline_engine_tmp_license.dat; sourceTree = "<group>"; };
-		35A9544B1D655D5C00B635B4 /* Chinese_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Text.dat; path = OfflineTTSDatFiles/Chinese_Text.dat; sourceTree = "<group>"; };
-		35A9544C1D655D5C00B635B4 /* English_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Speech_Male.dat; path = OfflineTTSDatFiles/English_Speech_Male.dat; sourceTree = "<group>"; };
-		35A9544D1D655D5C00B635B4 /* Chinese_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Speech_Male.dat; path = OfflineTTSDatFiles/Chinese_Speech_Male.dat; sourceTree = "<group>"; };
-		35A9544E1D655D5C00B635B4 /* English_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Speech_Female.dat; path = OfflineTTSDatFiles/English_Speech_Female.dat; sourceTree = "<group>"; };
-		35A9544F1D655D5C00B635B4 /* Chinese_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Speech_Female.dat; path = OfflineTTSDatFiles/Chinese_Speech_Female.dat; sourceTree = "<group>"; };
-		35A954501D655D5C00B635B4 /* English_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Text.dat; path = OfflineTTSDatFiles/English_Text.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +54,6 @@
 		3559EA5D1D6556910075D5E6 = {
 			isa = PBXGroup;
 			children = (
-				35A954511D655D6200B635B4 /* Resource */,
 				35A954481D655C8400B635B4 /* Library */,
 				35A954451D655BA400B635B4 /* BaiduSpeehSynthesizer */,
 				3559EA681D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer */,
@@ -107,20 +99,6 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
-		35A954511D655D6200B635B4 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				35A9544A1D655D5C00B635B4 /* offline_engine_tmp_license.dat */,
-				35A9544B1D655D5C00B635B4 /* Chinese_Text.dat */,
-				35A9544C1D655D5C00B635B4 /* English_Speech_Male.dat */,
-				35A9544D1D655D5C00B635B4 /* Chinese_Speech_Male.dat */,
-				35A9544E1D655D5C00B635B4 /* English_Speech_Female.dat */,
-				35A9544F1D655D5C00B635B4 /* Chinese_Speech_Female.dat */,
-				35A954501D655D5C00B635B4 /* English_Text.dat */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +109,7 @@
 				3559EA621D6556910075D5E6 /* Sources */,
 				3559EA631D6556910075D5E6 /* Frameworks */,
 				3559EA641D6556910075D5E6 /* Copy Files */,
+				351080A21D67029700467AD0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +151,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351080A21D67029700467AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3559EA621D6556910075D5E6 /* Sources */ = {

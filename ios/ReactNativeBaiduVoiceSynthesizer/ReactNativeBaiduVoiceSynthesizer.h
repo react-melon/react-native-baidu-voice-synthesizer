@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "RCTBridgeModule.h"
+#import "BDSSpeechSynthesizer.h"
 
-@interface ReactNativeBaiduVoiceSynthesizer : NSObject <RCTBridgeModule>
+@interface ReactNativeBaiduVoiceSynthesizer : NSObject <RCTBridgeModule, BDSSpeechSynthesizerDelegate>
 
 @end
