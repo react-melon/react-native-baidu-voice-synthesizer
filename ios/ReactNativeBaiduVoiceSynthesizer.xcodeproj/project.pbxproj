@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3559EA6A1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 3559EA691D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.h */; };
+		3559EA6C1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3559EA6B1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.m */; };
+		35A954471D655C8100B635B4 /* libetts_device_simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A954461D655C8100B635B4 /* libetts_device_simulator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3559EA641D6556910075D5E6 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3559EA6A1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3559EA661D6556910075D5E6 /* libReactNativeBaiduVoiceSynthesizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeBaiduVoiceSynthesizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3559EA691D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeBaiduVoiceSynthesizer.h; sourceTree = "<group>"; };
+		3559EA6B1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeBaiduVoiceSynthesizer.m; sourceTree = "<group>"; };
+		35A9543F1D655B6C00B635B4 /* BDSSpeechSynthesizerParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSpeechSynthesizerParams.h; path = BDSSpeechSynthesizer_SDK/BDSSpeechSynthesizerParams.h; sourceTree = "<group>"; };
+		35A954401D655B6D00B635B4 /* BDSSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSpeechSynthesizer.h; path = BDSSpeechSynthesizer_SDK/BDSSpeechSynthesizer.h; sourceTree = "<group>"; };
+		35A954411D655B6D00B635B4 /* BDSSpeechSynthesizerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSpeechSynthesizerErrors.h; path = BDSSpeechSynthesizer_SDK/BDSSpeechSynthesizerErrors.h; sourceTree = "<group>"; };
+		35A954421D655B6D00B635B4 /* BDSSynthesizerLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSynthesizerLogLevel.h; path = BDSSpeechSynthesizer_SDK/BDSSynthesizerLogLevel.h; sourceTree = "<group>"; };
+		35A954431D655B6D00B635B4 /* BDSSpeechSynthesizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSSpeechSynthesizerDelegate.h; path = BDSSpeechSynthesizer_SDK/BDSSpeechSynthesizerDelegate.h; sourceTree = "<group>"; };
+		35A954441D655B6D00B635B4 /* BDSBuiltInPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BDSBuiltInPlayer.h; path = BDSSpeechSynthesizer_SDK/BDSBuiltInPlayer.h; sourceTree = "<group>"; };
+		35A954461D655C8100B635B4 /* libetts_device_simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libetts_device_simulator.a; path = BDSSpeechSynthesizer_SDK/libetts_device_simulator.a; sourceTree = "<group>"; };
+		35A9544A1D655D5C00B635B4 /* offline_engine_tmp_license.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = offline_engine_tmp_license.dat; path = OfflineTTSDatFiles/offline_engine_tmp_license.dat; sourceTree = "<group>"; };
+		35A9544B1D655D5C00B635B4 /* Chinese_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Text.dat; path = OfflineTTSDatFiles/Chinese_Text.dat; sourceTree = "<group>"; };
+		35A9544C1D655D5C00B635B4 /* English_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Speech_Male.dat; path = OfflineTTSDatFiles/English_Speech_Male.dat; sourceTree = "<group>"; };
+		35A9544D1D655D5C00B635B4 /* Chinese_Speech_Male.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Speech_Male.dat; path = OfflineTTSDatFiles/Chinese_Speech_Male.dat; sourceTree = "<group>"; };
+		35A9544E1D655D5C00B635B4 /* English_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Speech_Female.dat; path = OfflineTTSDatFiles/English_Speech_Female.dat; sourceTree = "<group>"; };
+		35A9544F1D655D5C00B635B4 /* Chinese_Speech_Female.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinese_Speech_Female.dat; path = OfflineTTSDatFiles/Chinese_Speech_Female.dat; sourceTree = "<group>"; };
+		35A954501D655D5C00B635B4 /* English_Text.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = English_Text.dat; path = OfflineTTSDatFiles/English_Text.dat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3559EA631D6556910075D5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A954471D655C8100B635B4 /* libetts_device_simulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3559EA5D1D6556910075D5E6 = {
+			isa = PBXGroup;
+			children = (
+				35A954511D655D6200B635B4 /* Resource */,
+				35A954481D655C8400B635B4 /* Library */,
+				35A954451D655BA400B635B4 /* BaiduSpeehSynthesizer */,
+				3559EA681D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer */,
+				3559EA671D6556910075D5E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3559EA671D6556910075D5E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3559EA661D6556910075D5E6 /* libReactNativeBaiduVoiceSynthesizer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3559EA681D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				3559EA691D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.h */,
+				3559EA6B1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.m */,
+			);
+			path = ReactNativeBaiduVoiceSynthesizer;
+			sourceTree = "<group>";
+		};
+		35A954451D655BA400B635B4 /* BaiduSpeehSynthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				35A9543F1D655B6C00B635B4 /* BDSSpeechSynthesizerParams.h */,
+				35A954401D655B6D00B635B4 /* BDSSpeechSynthesizer.h */,
+				35A954411D655B6D00B635B4 /* BDSSpeechSynthesizerErrors.h */,
+				35A954421D655B6D00B635B4 /* BDSSynthesizerLogLevel.h */,
+				35A954431D655B6D00B635B4 /* BDSSpeechSynthesizerDelegate.h */,
+				35A954441D655B6D00B635B4 /* BDSBuiltInPlayer.h */,
+			);
+			name = BaiduSpeehSynthesizer;
+			sourceTree = "<group>";
+		};
+		35A954481D655C8400B635B4 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				35A954461D655C8100B635B4 /* libetts_device_simulator.a */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		35A954511D655D6200B635B4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				35A9544A1D655D5C00B635B4 /* offline_engine_tmp_license.dat */,
+				35A9544B1D655D5C00B635B4 /* Chinese_Text.dat */,
+				35A9544C1D655D5C00B635B4 /* English_Speech_Male.dat */,
+				35A9544D1D655D5C00B635B4 /* Chinese_Speech_Male.dat */,
+				35A9544E1D655D5C00B635B4 /* English_Speech_Female.dat */,
+				35A9544F1D655D5C00B635B4 /* Chinese_Speech_Female.dat */,
+				35A954501D655D5C00B635B4 /* English_Text.dat */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3559EA651D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3559EA6F1D6556910075D5E6 /* Build configuration list for PBXNativeTarget "ReactNativeBaiduVoiceSynthesizer" */;
+			buildPhases = (
+				3559EA621D6556910075D5E6 /* Sources */,
+				3559EA631D6556910075D5E6 /* Frameworks */,
+				3559EA641D6556910075D5E6 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeBaiduVoiceSynthesizer;
+			productName = ReactNativeBaiduVoiceSynthesizer;
+			productReference = 3559EA661D6556910075D5E6 /* libReactNativeBaiduVoiceSynthesizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3559EA5E1D6556910075D5E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.ludafa;
+				TargetAttributes = {
+					3559EA651D6556910075D5E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9N4RDS7YY4;
+					};
+				};
+			};
+			buildConfigurationList = 3559EA611D6556910075D5E6 /* Build configuration list for PBXProject "ReactNativeBaiduVoiceSynthesizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3559EA5D1D6556910075D5E6;
+			productRefGroup = 3559EA671D6556910075D5E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3559EA651D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3559EA621D6556910075D5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3559EA6C1D6556910075D5E6 /* ReactNativeBaiduVoiceSynthesizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3559EA6D1D6556910075D5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3559EA6E1D6556910075D5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3559EA701D6556910075D5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDSSpeechSynthesizer_SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3559EA711D6556910075D5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BDSSpeechSynthesizer_SDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3559EA611D6556910075D5E6 /* Build configuration list for PBXProject "ReactNativeBaiduVoiceSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3559EA6D1D6556910075D5E6 /* Debug */,
+				3559EA6E1D6556910075D5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3559EA6F1D6556910075D5E6 /* Build configuration list for PBXNativeTarget "ReactNativeBaiduVoiceSynthesizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3559EA701D6556910075D5E6 /* Debug */,
+				3559EA711D6556910075D5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3559EA5E1D6556910075D5E6 /* Project object */;
+}

@@ -1,0 +1,6 @@
+node_modules
+*.log
+.DS_Store
+ios/BDSSpeechSynthesizer_SDK
+ios/OfflineTTDSDatFiles
+._*
